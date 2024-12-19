@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .project {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-title {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .project-link {
+            display: block;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Projects</h1>
+        <p>Here you can find all the projects I have worked on.</p>
+    </header>
+
+    <div class="container">
+        <div class="project">
+            <div class="project-title">Dice Game</div>
+            <a class="project-link" href="Dicee_game/dicee.html" target="_blank">Play Dice Game</a>
+        </div>
+
+        <!-- Add more projects here -->
+        <div class="project">
+            <div class="project-title">Another Project</div>
+            <a class="project-link" href="#" target="_blank">Explore Project</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Projects Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>

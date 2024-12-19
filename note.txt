@@ -1,0 +1,57 @@
+
+Principles of Writing Consistent, Idiomatic JavaScript
+https://github.com/rwaldron/idiomatic.js
+
+
+selecting element in JavaScript
+
+document.firstElementChild.lastElementChild.querySelector("ul").lastElementChild.innerHTML = "Angela";
+
+
+select element in JavaScript
+
+getElementsbyTagName("li")
+getElementsbyClassName('btn')
+getElementbyId('title')
+querySelector('') 
+querySelector('h1') used for tags
+querySelector('#title') used for id
+querySelector('.btn') used for class 
+querySelectorAll() to select all element of list 
+document.querySelector("#list a") combining id and tags
+document.querySelector("#list .item") combining id and and class
+document.querySelector("button").style.backgroundColor = "green";  used to change the color of background useing tag
+
+to get the list of class
+querySelector("button").classList;
+
+to add class in the existing element
+querySelector("className").classList.add("classname)
+
+to remove class 
+querySelector("className") classList.remove("invisible");
+
+toggle is used if class applied then remove if not applide then add 
+querySelector("className").toggle("className")
+
+text manipulation using Text content property
+getElementbyId('title').textContent = "hello";
+
+using innerHTML when we use this it will gives us text as well as its property
+and we can also add style in this
+querySelector("h1").innerHTML="<em>Good Bye </em>;
+
+attribute all the tags except the tag we used to see 
+manipulation of Html element atttibut 
+document.querySelector("a")  its shows list of tags
+
+document.querySelector("a").attributes; 
+its show the list of attribute
+
+to see the valuse of attribute
+document.querySelector("a").getAttribute("tag");
+
+to manipulation of attribute
+document.querySelector("a").setAttribute("tag","values)
+
+
